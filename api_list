@@ -30,3 +30,13 @@ https://prod.iot.robart.cc/iot/get/product_feature_set?robot_id=ROBOID
 ## unsure
 https://prod.iot.robart.cc/iot/iot/paired_robots
 ## list of robots on your account
+https://prod.iot.robart.cc/iot/set/clean_map?map_id=2&area_ids=1&cleaning_parameter_set=0&robot_id=ROBOID
+## clean specific room on map #
+https://prod.iot.robart.cc/iot/get/rob_pose?robot_id=ROBOID
+## ?
+https://prod.iot.robart.cc/iot/set/stop?robot_id=ROBOID
+## stops robot
+https://prod.iot.robart.cc/iot/set/switch_cleaning_parameter_set?cleaning_parameter_set=0&robot_id=ROBOID
+## I think cleaning param=1 means not cleaning?
+https://prod.iot.robart.cc/iot/get/n_n_polygons?map_id=2&robot_id=ROBOID
+## unsure what NN polygons are
