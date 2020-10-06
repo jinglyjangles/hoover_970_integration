@@ -1,0 +1,8 @@
+## On add area, you can set go/no go and cleaning power is a slider
+Cleaning Power changed to INTENSIVE
+Selected area with id: AreaEntity76
+No Go switch was clicked.
+2020-10-06 09:46:23.023 26387-26686/com.rogue.connect.android D/cc.robart.app.map.state.EditMapState: Cleaning Power changed to NORMAL
+2020-10-06 09:46:23.023 26387-26686/com.rogue.connect.android D/cc.robart.app.map.state.EditMapState: No Go switch was clicked.
+2020-10-06 09:46:23.024 26387-26686/com.rogue.connect.android D/cc.robart.app.map.state.EditMapState: Area name changed to: VR
+
