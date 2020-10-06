@@ -40,3 +40,5 @@ https://prod.iot.robart.cc/iot/set/switch_cleaning_parameter_set?cleaning_parame
 ## I think cleaning param=1 means not cleaning?
 https://prod.iot.robart.cc/iot/get/n_n_polygons?map_id=2&robot_id=ROBOID
 ## unsure what NN polygons are
+https://prod.iot.robart.cc/iot/get/robot_name?robot_id=ROBOID
+## Get robot name, this is the one set by the user not the default as seen in robot_status
