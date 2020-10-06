@@ -1,0 +1,32 @@
+## List of api endpoints i've discovered so far
+https://ums.prod.iot.robart.cc/ums/user/login
+https://update.robart.cc/api/authenticate?username=user&password=user
+## if you pass username=user and password=user you get a generic token,  need to dig more here. 
+https://prod.iot.robart.cc/iot/get/event_log?last_id=5&robot_id=ROBOIDHERE
+## ROBOID is your robot id
+https://prod.iot.robart.cc/iot/get/areas?map_id=3&robot_id=ROBOID
+## get map id #3 for roboid
+https://prod.iot.robart.cc/iot/get/cleaning_grid_map?robot_id=ROBOID
+## cleaning grid?
+https://prod.iot.robart.cc/iot/get/feature_map?map_id=3&robot_id=ROBOID
+## feature map?
+https://prod.iot.robart.cc/iot/get/topo_map?map_id=3&robot_id=ROBOID
+## topographical map?
+https://prod.iot.robart.cc/iot/get/maps?robot_id=ROBOID
+## Get all maps for roboid?
+https://update.robart.cc/api/robots/byUID/ROBOID/version
+## updatign something, probs checking for new version
+https://prod.iot.robart.cc/iot/get/seen_polygon?map_id=3&robot_id=ROBOID
+## maybe used during the exploration phase to update the app?
+https://prod.iot.robart.cc/iot/get/wifi_status?robot_id=ROBOID
+## check wifi status of robo
+https://prod.iot.robart.cc/iot/set/time?year=2020&month=10&day=4&hour=11&min=37&robot_id=ROBOID
+## unsure why we need to set the time when trhe robo is on the network.
+https://prod.iot.robart.cc/iot/get/robot_id?robot_id=ROBOID
+## i think this is from the list robots screen in the app
+https://prod.iot.robart.cc/iot/get/protocol_version?robot_id=ROBOID
+## protocol version?
+https://prod.iot.robart.cc/iot/get/product_feature_set?robot_id=ROBOID
+## unsure
+https://prod.iot.robart.cc/iot/iot/paired_robots
+## list of robots on your account
